@@ -15,4 +15,3 @@ class AddTestCase(SimpleTestCase):
     def test_subtract_numbers(self):
         result = subtract(10, 15)
         self.assertEqual(result, 5)
-        
